@@ -1,0 +1,70 @@
+body,
+html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    position: relative;
+    height: 100%;
+}
+
+.page__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+    background: #020F20;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button {
+    width: 41px;
+    height: 41px;
+    top: 282px;
+    left: 580px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff00;
+    border: 1px solid rgba(56, 120, 238, 0.4);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.button__icon {
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    left: 15px;
+}
+
+.button__circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.button__circle--inner {
+    background: #3877EE;
+    opacity: 0.4;
+    border: 1px solid #3877EE;
+}
+
+.button__circle--outer {
+    background: #3877EE;
+    opacity: 0.4;
+}
