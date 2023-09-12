@@ -1,30 +1,23 @@
 document.addEventListener('DOMContentLoaded', function () {
     const buttons = document.querySelectorAll('.button');
-    let currentlyOpen = null;
-
-    function toggleButton (button) {
-        if (currentlyOpen === button) {
-            button.classList.remove('open');
-            currentlyOpen = null;
-        } else {
-            if (currentlyOpen) {
-                currentlyOpen.classList.remove('open');
-            }
-            button.classList.add('open');
-            currentlyOpen = button;
-        }
-    }
 
     buttons.forEach(button => {
-        button.addEventListener('click', function () {
-            toggleButton(button);
-        });
-    });
+        const buttonContent = button.querySelector('.button__content');
+        const buttonContentHidden = button.querySelector('.button__content.hidden');
 
-    document.addEventListener('click', function (event) {
-        if (!event.target.closest('.button') && currentlyOpen) {
-            currentlyOpen.classList.remove('open');
-            currentlyOpen = null;
+        if (buttonContent && buttonContentHidden) {
+            button.addEventListener('click', function (event) {
+                event.stopPropagation(); 
+                buttonContent.classList.toggle('hidden');
+                buttonContentHidden.classList.toggle('hidden');
+            });
+
+            document.addEventListener('click', function (event) {
+                if (!button.contains(event.target)) {
+                    buttonContent.classList.remove('hidden');
+                    buttonContentHidden.classList.add('hidden');
+                }
+            });
         }
     });
 });
