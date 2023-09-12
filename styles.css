@@ -33,13 +33,11 @@ img {
 }
 
 .home {
-
     top: 20.8%;
     left: 71.5%;
 }
 
 .ticketOffice {
-
     top: 37.35%;
     left: 59.75%;
 }
@@ -82,7 +80,6 @@ img {
 .button {
     width: 41px;
     height: 41px;
-
     position: absolute;
     display: flex;
     justify-content: center;
@@ -162,4 +159,268 @@ img {
 .button__circle--outer-green {
     background: #6ABF4B;
     opacity: 0.4;
+}
+
+@media (max-width: 1800px) {
+    .clinic {
+        top: 26.2%;
+        left: 28.7%;
+    }
+
+    .home {
+        top: 20.6%;
+        left: 73.4%;
+    }
+
+    .ticketOffice {
+        top: 37.35%;
+        left: 60.85%;
+    }
+
+    .warehouse {
+        top: 44.2%;
+        left: 75.9%;
+    }
+
+    .station {
+        top: 44.6%;
+        left: 34%;
+    }
+
+    .undergroundTracks {
+        top: 58.2%;
+        left: 56.3%;
+    }
+
+    .administrativeBuilding {
+        top: 61%;
+        left: 69.6%;
+    }
+
+    .securityService {
+        top: 65.6%;
+        left: 85.45%;
+    }
+
+    .seaward {
+        top: 66%;
+        left: 20.6%;
+    }
+
+    .hotels {
+        top: 73.3%;
+        left: 58.15%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .clinic {
+        left: 26.7%;
+    }
+
+    .home {
+        left: 74.4%;
+        ;
+    }
+
+    .ticketOffice {
+        left: 61.55%;
+    }
+
+    .warehouse {
+        left: 77.2%;
+    }
+
+    .station {
+        left: 33%;
+    }
+
+    .undergroundTracks {
+        left: 56.4%;
+    }
+
+    .administrativeBuilding {
+        left: 70.7%;
+    }
+
+    .securityService {
+        left: 87.85%;
+    }
+
+    .seaward {
+        left: 18.6%;
+    }
+
+    .hotels {
+        left: 58.55%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .clinic {
+        left: 24.7%;
+    }
+
+    .home {
+        left: 76.4%;
+    }
+
+    .ticketOffice {
+        left: 62.45%;
+    }
+
+    .warehouse {
+        left: 79.5%;
+    }
+
+    .station {
+        left: 31.6%;
+    }
+
+    .undergroundTracks {
+        left: 57.4%;
+    }
+
+    .administrativeBuilding {
+        left: 72.2%;
+    }
+
+    .securityService {
+        left: 90.95%;
+    }
+
+    .seaward {
+        left: 16.4%;
+    }
+
+    .hotels {
+        left: 59.65%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .clinic {
+        left: 22.7%;
+    }
+
+    .home {
+        left: 78.4%;
+    }
+
+    .ticketOffice {
+        left: 63.45%;
+    }
+
+    .warehouse {
+        left: 81.5%;
+    }
+
+    .station {
+        top: 44.6%;
+        left: 30.6%;
+    }
+
+    .undergroundTracks {
+        left: 58.4%;
+    }
+
+    .administrativeBuilding {
+        left: 73.2%;
+    }
+
+    .securityService {
+        left: 92.95%;
+    }
+
+    .seaward {
+        left: 14.4%;
+    }
+
+    .hotels {
+        left: 60.65%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .clinic {
+        left: 20.7%;
+    }
+
+    .home {
+        left: 80.4%;
+    }
+
+    .ticketOffice {
+        left: 64.45%;
+    }
+
+    .warehouse {
+        left: 83.5%;
+    }
+
+    .station {
+        left: 28.6%;
+    }
+
+    .undergroundTracks {
+        left: 59.4%;
+    }
+
+    .administrativeBuilding {
+        left: 74.2%;
+    }
+
+    .securityService {
+        left: 94.95%;
+    }
+
+    .seaward {
+        left: 12.4%;
+    }
+
+    .hotels {
+        left: 61.65%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .clinic {
+        left: 19.7%;
+    }
+
+    .home {
+        left: 82.4%;
+    }
+
+    .ticketOffice {
+        left: 65.45%;
+    }
+
+    .warehouse {
+        left: 85.5%;
+    }
+
+    .station {
+        left: 28.6%;
+    }
+
+    .undergroundTracks {
+        left: 59.4%;
+    }
+
+    .administrativeBuilding {
+        left: 76.2%;
+    }
+
+    .securityService {
+        left: 94.95%;
+    }
+
+    .seaward {
+        left: 9.4%;
+    }
+
+    .hotels {
+        left: 61.65%;
+    }
 }
